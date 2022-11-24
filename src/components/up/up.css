@@ -1,0 +1,154 @@
+.up {
+  background-color: #ff6700;
+  flex-direction: column;
+}
+.logo {
+  margin: 50px auto;
+}
+.layer {
+  width: 1280px;
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding-bottom: 50px;
+  border-radius: 16px;
+}
+.layer h4 {
+  margin: 25px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+.layer input {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 103, 0, 0.3);
+  border-radius: 10px;
+  outline: none;
+  min-width: 700px;
+  height: 50px;
+  padding-left: 10px;
+}
+.layer button {
+  display: block;
+  background-color: #ff6700;
+  border: none;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 900;
+  padding: 16px 114px;
+  margin-top: 50px;
+  color: white;
+  border-radius: 10px;
+}
+.layer .up__image {
+  max-width: 700px;
+  height: 464px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.layer .up__image img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+.likes-sm {
+  display: none;
+}
+.likes {
+  justify-content: space-evenly;
+  margin-top: 27px;
+  display: flex;
+}
+.likes .like svg {
+  width: 24px;
+  height: 24px;
+  color: #ff6700;
+}
+.likes .like span {
+  color: #ff6700;
+  font-size: 20px;
+}
+
+.likes .dislike svg {
+  width: 24px;
+  height: 24px;
+  color: #ff6700;
+}
+.likes .dislike span {
+  color: #ff6700;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .layer {
+    width: 1180px;
+  }
+  .layer .up__image {
+    max-width: 400px;
+    height: 265px;
+  }
+  .logo img {
+    width: 348px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .layer {
+    width: 750px;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .layer {
+    width: 580px;
+  }
+  .layer input {
+    min-width: 400px;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .likes {
+    display: none;
+  }
+  .likes-sm {
+    justify-content: space-evenly;
+    margin-top: 27px;
+    display: flex;
+  }
+  .likes-sm .like svg {
+    width: 24px;
+    height: 24px;
+    color: #ff6700;
+  }
+  .likes-sm .like span {
+    color: #ff6700;
+    font-size: 20px;
+  }
+
+  .likes-sm .dislike svg {
+    width: 24px;
+    height: 24px;
+    color: #ff6700;
+  }
+  .likes-sm .dislike span {
+    color: #ff6700;
+    font-size: 20px;
+  }
+  .layer {
+    width: 460px;
+  }
+  .layer .up__image {
+    max-width: 308px;
+    height: 205px;
+  }
+}
+@media only screen and (max-width: 464px) {
+  .layer {
+    width: 348px;
+  }
+  .layer .up__image {
+    max-width: 308px;
+    height: 205px;
+  }
+  .layer input {
+    min-width: 240px;
+  }
+}
